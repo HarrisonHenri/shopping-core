@@ -27,8 +27,8 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'nav',
-      library: { type: 'var', name: 'nav' },
+      name: 'core',
+      library: { type: 'var', name: 'core' },
       filename: 'remoteEntry.js',
       remotes: {
         store: 'store',
@@ -36,6 +36,7 @@ module.exports = {
       exposes: {
         // expose each component
         './Header': './src/Header',
+        './Checkout': './src/Checkout',
       },
       shared: {
         ...deps,
