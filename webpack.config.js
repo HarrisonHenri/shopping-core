@@ -32,11 +32,13 @@ module.exports = {
       filename: 'remoteEntry.js',
       remotes: {
         store: 'store',
+        home: 'home',
       },
       exposes: {
         // expose each component
         './Header': './src/Header',
         './Checkout': './src/Checkout',
+        './ProductList': './src/ProductList',
       },
       shared: {
         ...deps,
