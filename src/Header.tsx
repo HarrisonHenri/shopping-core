@@ -7,7 +7,7 @@ const Header = () => {
   useEffect(() => {
     const subscribe = () => {
       reduxStore.subscribe(() => {
-        let list = reduxStore.getState().items;
+        let list = reduxStore.getState().items as Product[];
         setCount(list.length);
       });
     }
