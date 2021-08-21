@@ -15,7 +15,7 @@ const Checkout = () => {
   }, []);
 
     return (
-    <div style={{border: '5px dashed blue'}}>
+    <div style={{border: '5px dashed green'}}>
       <div className="border-t mt-8">
         <div className="flex font-semibold justify-between py-6 text-sm uppercase">
           <span>Total cost</span>
