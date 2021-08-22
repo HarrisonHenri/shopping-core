@@ -44,8 +44,8 @@ $ yarn start
 
 ## Built With
 
-- [React](https://github.com/facebook/react) - Build the web app using JavaScript and React
-- [Wbpack](https://webpack.js.org/) - Module bundler
+- [React](https://github.com/facebook/react)
+- [Wbpack](https://webpack.js.org/)
 
 ## Contributing
 
