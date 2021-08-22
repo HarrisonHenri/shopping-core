@@ -45,7 +45,7 @@ $ yarn start
 ## Built With
 
 - [React](https://github.com/facebook/react)
-- [Wbpack](https://webpack.js.org/) - Module bundler
+- [Wbpack](https://webpack.js.org/)
 
 ## Contributing
 
