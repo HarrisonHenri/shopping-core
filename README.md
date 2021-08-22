@@ -28,7 +28,7 @@ $ git clone https://github.com/HarrisonHenri/shopping-core
 $ cd shopping-core
 ```
 
-Install all the required dependencies
+Install all dependencies
 
 ```
 $ yarn
