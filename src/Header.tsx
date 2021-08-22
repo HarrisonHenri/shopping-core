@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="flex justify-between border-b pb-8" style={{border: '5px dashed blue'}}>
+    <div className="flex justify-between border-b pb-8" style={{border: '4px dashed blue'}}>
       <h1 className="font-semibold text-4xl">Shopping Cart</h1>
       <h2 className="font-semibold text-4xl">{count} Items</h2>
     </div>
