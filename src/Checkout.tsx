@@ -23,7 +23,7 @@ const Checkout = () => {
         </div>
       </div>
       <button
-        onClick={() => alert(`Total: $${count}`)}
+        onClick={() => alert(`Total to pay $${count}`)}
         className="bg-yellow-500 font-semibold hover:bg-yellow-600 py-3 text-sm text-white uppercase w-full"
       >
         Checkout
