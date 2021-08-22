@@ -42,7 +42,7 @@ Then execute
 $ yarn start
 ```
 
-## Built With
+## Built with
 
 - [React](https://github.com/facebook/react)
 - [Wbpack](https://webpack.js.org/)
